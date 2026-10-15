@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Aedrian Jerome Gabriel, a BSIT student and aspiring web developer.">
+    <title>Aedrian Jerome Gabriel | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Site header and navigation -->
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="brand" href="#home">AJ<span>.</span></a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme">☾</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section: introduction and profile image -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">BSIT STUDENT · ASPIRING DEVELOPER</p>
+                    <h1>Hello, I'm <span>Aedrian Jerome Gabriel.</span></h1>
+                    <p class="hero-description">
+                        I’m an Information Technology student who enjoys learning how technology can solve
+                        everyday problems through useful, user-friendly digital experiences.
+                    </p>
+                    <div class="hero-actions">
+                        <a class="button primary-button" href="#projects">Explore My Projects</a>
+                        <a class="button secondary-button" href="#contact">Contact Me</a>
+                    </div>
+                </div>
+                <div class="profile-wrap">
+                    
+<div class="profile-placeholder">
+    <img src="image/image.webp" alt="Portrait of Aedrian Jerome Gabriel">
+</div>
+
+                    <div class="profile-caption">Curious mind. Continuous learner.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About section: brief personal biography -->
+        <section class="section about-section" id="about">
+            <div class="container narrow-container">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+                <p>
+                    I am a Bachelor of Science in Information Technology student at Bulacan State University.
+                    Through school activities and group projects, I continue to develop my skills in web
+                    development, systems analysis, database concepts, and problem-solving.
+                </p>
+                <p>
+                    I value teamwork, clear documentation, and building projects that are practical and easy
+                    to use. My goal is to keep improving as a developer and gain experience creating reliable
+                    technology solutions.
+                </p>
+                <div class="skill-list" aria-label="Areas of interest">
+                    <span>HTML &amp; CSS</span>
+                    <span>JavaScript</span>
+                    <span>PHP &amp; MySQL</span>
+                    <span>Systems Analysis</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects section: at least two sample academic projects -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <p class="eyebrow">SOME THINGS I'VE WORKED ON</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p class="section-intro">A few academic project concepts that reflect my interests in systems and web development.</p>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <div class="project-number">01</div>
+                        <h3>AssetHive</h3>
+                        <p class="project-type">Equipment Maintenance &amp; Asset Tracking</p>
+                        <p>
+                            A proposed system for the College of Information and Communications Technology
+                            to organize equipment records, track maintenance requests, and monitor repair status.
+                        </p>
+                        <div class="project-tags"><span>Systems Analysis</span><span>Database</span></div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-number">02</div>
+                        <h3>LibraSpace</h3>
+                        <p class="project-type">Library Occupancy &amp; Resource Tracker</p>
+                        <p>
+                            A proposed mobile-friendly solution to help students check study-space availability,
+                            search library resources, and view library announcements.
+                        </p>
+                        <div class="project-tags"><span>UI/UX</span><span>Application Design</span></div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-number">03</div>
+                        <h3>Personal Portfolio</h3>
+                        <p class="project-type">Single-Page Website</p>
+                        <p>
+                            A responsive portfolio built with semantic HTML, CSS layouts, and JavaScript
+                            interactions to introduce my background and academic work.
+                        </p>
+                        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / contact section -->
+    <footer class="section contact-section" id="contact">
+        <div class="container contact-content">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Get in <span>Touch</span></h2>
+            <p>Have a question or want to talk about a project? Feel free to reach out.</p>
+            <!-- Replace the example email and GitHub URL with your own active accounts. -->
+            <div class="contact-links">
+                <a class="button primary-button" href="mailto:aedrianjeromegabriel@gmail.com">Email Me</a>
+                <a class="button secondary-button" href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+            </div>
+            <p class="footer-note">© <span id="current-year">2026</span> Aedrian Jerome Gabriel. Built with HTML, CSS &amp; JavaScript.</p>
+        </div>
+    </footer>
+</body>
+</html>
